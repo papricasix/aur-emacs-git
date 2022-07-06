@@ -64,7 +64,7 @@ ALSA="YES"        # Linux sound support.
 
 NOCAIRO=          # Disable here. 
                
-XWIDGETS=         # Use GTK+ widgets pulled from webkit2gtk. Usable.
+XWIDGETS="YES"    # Use GTK+ widgets pulled from webkit2gtk. Usable.
                
 DOCS_HTML=        # Generate and install html documentation.
                
