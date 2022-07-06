@@ -22,7 +22,7 @@
 ################################################################################
 CHECK=            # Run tests. May fail, this is developement after all.
 
-CLANG=            # Use clang.
+CLANG="YES"       # Use clang.
 
 GOLD=             # Use the gold linker.
 
@@ -60,7 +60,7 @@ LUCID=            # Use the lucid, a.k.a athena, toolkit. Like XEmacs, sorta.
 XI2="YES"         # Use Xinput2 support.
                   # https://www.x.org/releases/X11R7.7/doc/inputproto/XI2proto.txt
 
-ALSA=             # Linux sound support.
+ALSA="YES"        # Linux sound support.
 
 NOCAIRO=          # Disable here. 
                
