@@ -320,9 +320,9 @@ _conf+=('--program-transform-name=s/\([ec]tags\)/\1.emacs/')
   #
 
   if [[ $JIT=="YES" ]] && [[ $AOT == "YES" ]]; then
-    make NATIVE_FULL_AOT=1
+    make -j32 NATIVE_FULL_AOT=1
   else
-    make
+    make -j32
   fi
 
   # You may need to run this if 'loaddefs.el' files become corrupt.
