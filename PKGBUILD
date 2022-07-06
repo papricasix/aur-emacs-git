@@ -91,7 +91,7 @@ makedepends=('git')
 provides=('emacs')
 replaces=('emacs')
 #source=("emacs-git::git://git.savannah.gnu.org/emacs.git"
-source=("emacs-git::git+https://git.savannah.gnu.org/git/emacs.git"
+source=("emacs-git::git+https://github.com/papricasix/emacs"
         "nemacs")
 options=(!strip)
 install=emacs-git.install
